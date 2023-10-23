@@ -1,0 +1,53 @@
+/* style.css */
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #f2f2f2; /* Cinza claro */
+    padding: 10px;
+  }
+  
+  h1 {
+    color: #333; /* Preto */
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc; /* Cinza */
+    margin: 10px 0;
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para o rodapé */
+  footer {
+    background-color: #f2f2f2; /* Cinza claro */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Cores azuis adicionais */
+  header {
+    background-color: #c9e6ff; /* Azul claro */
+  }
+  
+  h1 {
+    color: #002244; /* Azul escuro */
+  }
+  
+  hr {
+    border-top: 1px solid #66a3ff; /* Azul médio */
+  }
+  
+  p {
+    color: #337ab7; /* Azul */
+  }
+  
+  footer {
+    background-color: #337ab7; /* Azul */
+  }

@@ -1,0 +1,19 @@
+
+body{
+    background-color: bisque;
+    font-family: cursive;
+    font-size: 20px;
+}
+h1{
+    color: darkred;
+}
+h2{
+    color: cyan;
+}
+p{
+    color: chartreuse;
+    text-align: justify;
+    
+}
+
+
