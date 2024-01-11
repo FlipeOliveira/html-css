@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    thead{ 
+   
+        border: 1px solid black;
+        text-align: center;
+        background-color: gray;
+        padding: 5px;
+    }
+    th, td{
+        border-collapse: collapse;
+        border: 1px solid black;
+        
+    }
+    th{
+        background-color: gray;
+        padding: 15px;
+    }
+    tbody > tr:nth-child(2n){
+        background-color: rgba(128, 128, 128, 0.322);
+    }
+    tbody > tr >td{
+        height: 20px;
+        width: 100px;
+        
+    }
+    table{
+       width: 250px;
+       height: 150px;
+
+        border-collapse: collapse;
+    }
+    td{
+        border: 1px solid black;
+        text-align: center;
+        
+        padding: 5px;
+    }
+
+</style>
+<body>
+  <h1>desafios de tabela </h1>  
+
+  <table>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2">3</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        
+    </tr>
+    <tr>
+        <td colspan="3">8</td>
+        <Td>9</Td>
+    </tr>
+    <tr>
+        <td rowspan="2">10</td>
+        <td colspan="2">11</td>
+        <Td>12</Td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        
+    </tr>
+
+  </table>
+</body>
+
+
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<table>
+    <tr>
+        <td colspan="4">a</td>
+        <td rowspan="4">b </td>
+    </tr>
+    <tr>
+        <td rowspan="4">c</td>
+        <td>d</td>
+        <td>e</td>
+        <td>f</td>
+        
+    </tr>
+    <tr>
+        <td>g</td>
+        <Td>h</Td>
+        <td>i</td>
+        
+    </tr>
+    <tr>
+        <td>j</td>
+        <td>l</td>
+        <Td>m</Td>
+        
+    </tr>
+    <tr>
+        <td colspan="4">n</td>
+        
+        
+    </tr>
+
+  </table>
+
+  <p></p>
+  <table>
+    <caption>
+        FILMES FAVORITOS
+    </caption>
+    <thead>
+        <tr>
+            <th>Grupo</th>
+            <th>Nome</th>
+            <th colspan="3">Filme</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th rowspan="3">mulheres</th>
+        <td>Ana</td>
+        <td>alien</td>
+        <td>rambo</td>
+        <td>vingadores</td>
+    </tr>
+
+    <tr>
+        <td>Julia</td>
+        <td>Hulk</td>
+        <td>Inception</td>
+        <td>Batman</td>
+        <tr>
+            <td>Paula</td>
+            <td>Oblivion</td>
+            <td>Matrix</td>
+            <td>Big Hero</td>
+        </tr>
+    </tr>
+        <tr>
+            <th rowspan="3">homens</th>
+            <td>Bruno</td>
+        <td>intocáveis</td>
+        <td>amnsésia</td>
+        <td>Gladiadores</td>
+    </tr>
+
+    <tr>
+        <td>Daniel</td>
+        <td>Wall-e</td>
+        <td>Old boy</td>
+        <td>Dangal</td>
+        <tr>
+            <td>Fabiano</td>
+            <td>Star Ward</td>
+            <td>Taxi </td>
+            <td>Toy store</td>
+        </tr>
+        </tr>
+    </tbody>
+    <table>
+        
+        <thead>
+                
+        </thead>
+
+        <tbody>
+            
+            <th rowspan="2">ÁREA</th>
+                <th rowspan="2">DISCIPLINAS</th>
+                <th colspan="2">NOTAS</th>
+                <th rowspan="2">MÉDIA</th>
+        
+            
+           <tr>
+            <th>notas 1</th>
+            <th>notas 2</th>
+           </tr>
+        
+    
+        <tr>
+            <Td rowspan="4" class="ar">EXATAS</Th>
+            <td>Matemática</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            
+            <tr>
+                <td>Física</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+        </tr>
+            <tr>
+                
+                <td>Química</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            <td>00.00</td>
+        </tr>
+    
+        <tr>
+            <td >Biologia</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            <td>00.00</td>
+         </tr>
+         <tr>
+            <th colspan="4">Média de Exatas</th>
+            <th>00.00</th>
+        </tr>
+         <Td rowspan="2" class="ar">HUMANAS</Td>
+            <td>História</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            <td>00.00</td>
+            
+            <tr>
+                <td>Geografia</td>
+                <td>00.00</td>
+                <td>00.00</td>
+                <td>00.00</td>
+            </tr>
+            <tr>
+                <th colspan="4">Média de Humanas</th>
+                <th>00.00</th>
+            </tr>
+        </tbody>
+    
+    </html>
+</html>
